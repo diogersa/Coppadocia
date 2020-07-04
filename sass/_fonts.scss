@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Balqis';
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Balqis/balqis.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Balqis/balqis.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+       
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/RobotoCondensed/RobotoCondensed-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/RobotoCondensed/RobotoCondensed-Light.woff') format('woff'); /* Pretty Modern Browsers */
+        font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed-Italic';
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/RobotoCondensed/RobotoCondensed-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/RobotoCondensed/RobotoCondensed-LightItalic.woff') format('woff'); /* Pretty Modern Browsers */
+        font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/RobotoCondensed/RobotoCondensed-Regular.woff') format('woff2'),
+       url('../fonts/RobotoCondensed/RobotoCondensed-Regular.woff') format('woff');
+       font-weight: 400;
+}

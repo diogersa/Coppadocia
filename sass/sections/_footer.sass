@@ -1,0 +1,66 @@
+.footer 
+    background-image: url('/img/footer/footer-bg.png')
+    background-repeat: no-repeat
+    background-position: bottom center
+    height: 100vh
+    padding-top: 100px
+    margin-top: 100px
+    &-inner
+        margin-top: 96px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &-contacts
+        text-align: center
+        width: 356px
+        height: 527px  
+        background-image: url('/img/footer/footer-ball.png') 
+        padding-top: 71px
+        &__title
+            font-family: 'Balqis'
+            font-size: 86px
+            line-height: 115px
+            color: #E2AB3F
+        &__phone,
+        &__mail
+            color: #000000
+            font-weight: 300
+            font-size: 18px
+            line-height: 21px
+            text-decoration: none
+            display: inline-block
+            position: relative
+            padding-left: 40px
+            &::before
+                content: ''
+                position: absolute
+                left: 0
+                top: -5px
+                width: 30px
+                height: 30px
+                
+        &__phone     
+            margin-top: 20px
+            &::before
+                background-image: url('../img/footer/footer-phone.svg')  
+        &__mail
+            margin-top: 20px
+            &::before
+                background-image: url('../img/footer/footer-mail.svg')
+        &__social
+            margin-top: 38px
+            &-link
+                margin: 0 3px
+                
+
+            
+
+
+
+
+
+    &-text
+        font-family: Balqis
+        font-size: 86px
+        line-height: 115px
+        color: #000000
